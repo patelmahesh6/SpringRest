@@ -15,11 +15,12 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  * @author Administrator
  */
 @SpringBootApplication
-@EntityScan( basePackages = {"com.panthera.model"} )
+@EntityScan(basePackages = {"com.panthera.model"})
 @EnableJpaRepositories("com.panthera.dao")
 public class ApplicationMain {
+
     public static void main(String[] args) {
-		SpringApplication.run(ApplicationMain.class, args);
-        }       
-    
+        SpringApplication.run(ApplicationMain.class, args);
+    }
+
 }

@@ -29,5 +29,7 @@ public class VehicleInfo implements Serializable {
     private Date createdDate;
     private boolean isUsedCar;
     private double price;
+    
+    
 
 }
